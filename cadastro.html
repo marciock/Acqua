@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equi="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+      <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <form name="formu" method="POST" action="./public/services/insert_login_service.php">
+      <div class="container">
+      <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" class="form-control" id="login" placeholder="login" name="login">
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha:</label>
+        <input type="password" class="form-control" id="senha" placeholder="senha" name="senha">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </div>
+    </div>
+    </form>
+
+    <script src="./dist/js/jquery.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

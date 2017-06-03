@@ -1,0 +1,12 @@
+{
+	"autoload":{
+
+		"psr-4":{
+
+			"Lib\\":"dist/acqua",
+			"Modules\\":"public/modules",
+			"Services\\":"public/services/"
+		}
+
+	}
+}
