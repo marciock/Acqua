@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Services\\' => array($baseDir . '/public/services'),
-    'Modules\\' => array($baseDir . '/public/modules'),
+    'Modules\\' => array($baseDir . '/modules'),
     'Lib\\' => array($baseDir . '/dist/acqua'),
 );
